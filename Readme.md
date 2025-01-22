@@ -1,6 +1,6 @@
 # CedricApp 
 
-This is a simple SwiftUE application that fetches user data from the ([Random User API](https://randomuser.me/) and displays both the user's name and picture in a list. It uses `Swift Concurrency (async/await)`, also `@published` properties for reactivity, and a repository approach for network calls.
+This is a simple iOS application that fetches user data from the ([Random User API](https://randomuser.me/) and displays both the user's name and picture in a list. It uses `Swift Concurrency (async/await)`, also `@published` properties for reactivity, and a repository approach for network calls.
 
 ## Overview
 
