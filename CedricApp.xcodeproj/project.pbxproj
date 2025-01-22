@@ -6,15 +6,12 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		2FE5288C2D41806200E591E1 /* Readme.md in Resources */ = {isa = PBXBuildFile; fileRef = 2FE5288B2D41806200E591E1 /* Readme.md */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		2F2207472D414DA900646022 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 2F22072E2D414DA800646022 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 2F2207352D414DA800646022;
-			remoteInfo = CedricApp;
-		};
-		2F2207512D414DA900646022 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 2F22072E2D414DA800646022 /* Project object */;
 			proxyType = 1;
@@ -26,7 +23,7 @@
 /* Begin PBXFileReference section */
 		2F2207362D414DA800646022 /* CedricApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CedricApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F2207462D414DA900646022 /* CedricAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CedricAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		2F2207502D414DA900646022 /* CedricAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CedricAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FE5288B2D41806200E591E1 /* Readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -38,11 +35,6 @@
 		2F2207492D414DA900646022 /* CedricAppTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = CedricAppTests;
-			sourceTree = "<group>";
-		};
-		2F2207532D414DA900646022 /* CedricAppUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = CedricAppUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -62,22 +54,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2F22074D2D414DA900646022 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		2F22072D2D414DA800646022 = {
 			isa = PBXGroup;
 			children = (
+				2FE5288B2D41806200E591E1 /* Readme.md */,
 				2F2207382D414DA800646022 /* CedricApp */,
 				2F2207492D414DA900646022 /* CedricAppTests */,
-				2F2207532D414DA900646022 /* CedricAppUITests */,
 				2F2207372D414DA800646022 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -87,7 +72,6 @@
 			children = (
 				2F2207362D414DA800646022 /* CedricApp.app */,
 				2F2207462D414DA900646022 /* CedricAppTests.xctest */,
-				2F2207502D414DA900646022 /* CedricAppUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -140,29 +124,6 @@
 			productReference = 2F2207462D414DA900646022 /* CedricAppTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		2F22074F2D414DA900646022 /* CedricAppUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 2F2207602D414DA900646022 /* Build configuration list for PBXNativeTarget "CedricAppUITests" */;
-			buildPhases = (
-				2F22074C2D414DA900646022 /* Sources */,
-				2F22074D2D414DA900646022 /* Frameworks */,
-				2F22074E2D414DA900646022 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				2F2207522D414DA900646022 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				2F2207532D414DA900646022 /* CedricAppUITests */,
-			);
-			name = CedricAppUITests;
-			packageProductDependencies = (
-			);
-			productName = CedricAppUITests;
-			productReference = 2F2207502D414DA900646022 /* CedricAppUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -178,10 +139,7 @@
 					};
 					2F2207452D414DA900646022 = {
 						CreatedOnToolsVersion = 16.0;
-						TestTargetID = 2F2207352D414DA800646022;
-					};
-					2F22074F2D414DA900646022 = {
-						CreatedOnToolsVersion = 16.0;
+						LastSwiftMigration = 1600;
 						TestTargetID = 2F2207352D414DA800646022;
 					};
 				};
@@ -202,7 +160,6 @@
 			targets = (
 				2F2207352D414DA800646022 /* CedricApp */,
 				2F2207452D414DA900646022 /* CedricAppTests */,
-				2F22074F2D414DA900646022 /* CedricAppUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -212,17 +169,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2FE5288C2D41806200E591E1 /* Readme.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		2F2207442D414DA900646022 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2F22074E2D414DA900646022 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -246,13 +197,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2F22074C2D414DA900646022 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -260,11 +204,6 @@
 			isa = PBXTargetDependency;
 			target = 2F2207352D414DA800646022 /* CedricApp */;
 			targetProxy = 2F2207472D414DA900646022 /* PBXContainerItemProxy */;
-		};
-		2F2207522D414DA900646022 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 2F2207352D414DA800646022 /* CedricApp */;
-			targetProxy = 2F2207512D414DA900646022 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -395,7 +334,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"CedricApp/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"CedricApp/Resources/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -423,7 +362,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"CedricApp/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"CedricApp/Resources/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -448,6 +387,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -456,6 +396,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.oc.CedricAppTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CedricApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CedricApp";
@@ -466,6 +407,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -477,38 +419,6 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CedricApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CedricApp";
-			};
-			name = Release;
-		};
-		2F2207612D414DA900646022 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.oc.CedricAppUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = CedricApp;
-			};
-			name = Debug;
-		};
-		2F2207622D414DA900646022 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.oc.CedricAppUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = CedricApp;
 			};
 			name = Release;
 		};
@@ -538,15 +448,6 @@
 			buildConfigurations = (
 				2F22075E2D414DA900646022 /* Debug */,
 				2F22075F2D414DA900646022 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		2F2207602D414DA900646022 /* Build configuration list for PBXNativeTarget "CedricAppUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				2F2207612D414DA900646022 /* Debug */,
-				2F2207622D414DA900646022 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
